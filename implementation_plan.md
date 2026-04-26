@@ -5,12 +5,6 @@ This document outlines the architecture, toolchain, and implementation strategy 
 ## Goal Description
 The objective is to build a foundational, bounded study assistant that answers NCERT Class 9/10 Science questions reliably. Crucially, the system must remain perfectly grounded in the provided textbook content to maintain the trust of parents and students. We will implement the Base tier comprising Corpus Extraction, Retrieval, Generation, and Evaluation stages.
 
-## User Review Required
-> [!NOTE]
-> - The plan has been iteratively refined and approved. "Motion" (Chapter 8) will be used as the primary corpus due to formula density. Local Ollama (`llama3.2`, `mistral`, or `gemma2`) will be used as the LLM backend.
-
-## Open Questions
-- None.
 
 ## Pipeline Architecture & Justification
 
