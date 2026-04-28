@@ -106,9 +106,20 @@ Chunks:
 ## 📊 Observations
 
 - Retrieval returned relevant but partially redundant chunks
-- Answer is consistent with textbook definition
+- Answer is consistent with textbook definition sometimes, but takes content from training
 - Output correctness depends heavily on retrieval quality
-- No explicit verification mechanism ensures full grounding
+
+---
+
+system is:
+
+✅ Working:
+End-to-end pipeline
+Retrieval + generation + evaluation
+❌ Weak in:
+Grounding enforcement
+Evaluation rigor
+Hallucination control
 
 ---
 

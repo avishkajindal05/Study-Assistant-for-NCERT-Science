@@ -11,6 +11,7 @@ class TextCleaner:
     def clean_text(self, text: str) -> str:
         # remove excessive whitespace
         text = re.sub(r"\s+", " ", text)
+        text = re.sub(r"\d+o", "", text)  # fixes 'the0'
 
         # remove page numbers (simple heuristic)
         text = re.sub(r"\bPage\s*\d+\b", "", text)
