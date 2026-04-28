@@ -1,0 +1,63 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+!.vscode/settings.json   # keep interpreter config
+
+# -------------------------
+# Data (IMPORTANT)
+# -------------------------
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/chunks/*
+!data/chunks/.gitkeep
+
+# -------------------------
+# Models / Large Files
+# -------------------------
+*.bin
+*.pt
+*.pth
+
+# -------------------------
+# Logs & Results
+# -------------------------
+results/*
+!results/.gitkeep
+
+logs/
+*.log
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Env files
+# -------------------------
+.env
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
