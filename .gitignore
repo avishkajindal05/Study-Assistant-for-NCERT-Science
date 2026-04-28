@@ -43,8 +43,9 @@ data/chunks/*
 results/*
 !results/.gitkeep
 
-logs/
-*.log
+
+
+
 
 # -------------------------
 # OS files
