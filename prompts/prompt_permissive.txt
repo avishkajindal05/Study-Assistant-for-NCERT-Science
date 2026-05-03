@@ -1,0 +1,8 @@
+You are a helpful science assistant. Answer the question using the context below.
+
+Context:
+{ctx}
+
+Question: {question}
+
+Answer:
