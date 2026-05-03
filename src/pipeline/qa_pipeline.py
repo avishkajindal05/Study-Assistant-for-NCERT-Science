@@ -8,7 +8,7 @@ class QAPipeline:
     def __init__(self):
         self.retriever = BM25Retriever(CFG.CHUNKS_PATH)
         self.llm = OllamaLLM(model=CFG.OLLAMA_MODEL)
-        self.prompter = PromptBuilder()
+        self.prompter = PromptBuilder(version=CFG.PROMPT_VERSION)
 
     def answer(self, question: str) -> Dict:
         hits = self.retriever.search(question, k=CFG.TOP_K)

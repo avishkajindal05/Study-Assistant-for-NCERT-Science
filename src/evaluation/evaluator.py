@@ -40,6 +40,8 @@ class Evaluator:
                 "refusal": eval_metrics["refusal"],
                 "refusal_appropriate": eval_metrics["refusal_appropriate"]
             }
+            grounded = self.metrics.check_grounding(output["answer"], output["retrieved_chunks"])
+            row["grounded"] = grounded
 
             results.append(row)
 

@@ -1,15 +1,13 @@
 from typing import List
 
 class PromptBuilder:
+    def __init__(self, version: str = "v2"):
+        self.version = version
+
     def build(self, question: str, chunks: List[str]) -> str:
-        ctx = "\n\n".join(chunks)
-        return f"""You are a NCERT Science assistant.
-Answer ONLY using the context.
-If not present, say: "I cannot answer this from the available textbook content."
+        ctx = "\n\n---\n\n".join(chunks)
 
-Context:
-{ctx}
+        with open(f"prompts/prompt_{self.version}.txt", "r", encoding="utf-8") as f:
+            template = f.read()
 
-Question: {question}
-
-Answer:"""
+        return template.replace("{ctx}", ctx).replace("{question}", question)

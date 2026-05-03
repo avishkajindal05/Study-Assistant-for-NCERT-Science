@@ -4,29 +4,119 @@
       "id": 1,
       "question": "What is displacement?",
       "type": "direct",
-      "expected": "net change in position with direction"
+      "expected": "change in position"
     },
     {
       "id": 2,
-      "question": "Difference between distance and displacement?",
+      "question": "What is the difference between distance and displacement?",
       "type": "direct",
-      "expected": "distance is total path, displacement is shortest path with direction"
+      "expected": "distance is scalar, displacement is vector"
     },
     {
       "id": 3,
-      "question": "If an object returns to starting point, what is displacement?",
-      "type": "conceptual",
-      "expected": "zero"
+      "question": "What is acceleration?",
+      "type": "direct",
+      "expected": "rate of change of velocity"
     },
     {
       "id": 4,
-      "question": "Explain velocity in simple terms",
-      "type": "paraphrased",
-      "expected": "rate of change of displacement"
+      "question": "What is uniform circular motion?",
+      "type": "direct",
+      "expected": "constant speed along circular path"
     },
     {
       "id": 5,
-      "question": "WWhat is a mitochondria?",
+      "question": "What does the slope of a velocity-time graph represent?",
+      "type": "direct",
+      "expected": "acceleration"
+    },
+    {
+      "id": 6,
+      "question": "What is average velocity?",
+      "type": "direct",
+      "expected": "total displacement divided by total time"
+    },
+    {
+      "id": 7,
+      "question": "What is the SI unit of acceleration?",
+      "type": "direct",
+      "expected": "m/s"
+    },
+    {
+      "id": 8,
+      "question": "What does a straight horizontal line on a position-time graph mean?",
+      "type": "direct",
+      "expected": "object is at rest"
+    },
+    {
+      "id": 9,
+      "question": "Write the three equations of motion.",
+      "type": "direct",
+      "expected": "v = u + at"
+    },
+    {
+      "id": 10,
+      "question": "What is the difference between speed and velocity?",
+      "type": "direct",
+      "expected": "speed is scalar, velocity is vector"
+    },
+    {
+      "id": 11,
+      "question": "If an object returns to its starting point, what is the displacement?",
+      "type": "direct",
+      "expected": "zero"
+    },
+    {
+      "id": 12,
+      "question": "A car starts from rest and reaches 20 m/s in 4 seconds. What is its acceleration?",
+      "type": "direct",
+      "expected": "5 m/s"
+    },
+    {
+      "id": 13,
+      "question": "How does the distance covered by a child on a merry-go-round compare to displacement after one full revolution?",
+      "type": "paraphrased",
+      "expected": "distance is 2piR, displacement is zero"
+    },
+    {
+      "id": 14,
+      "question": "If velocity is not changing, what can you say about acceleration?",
+      "type": "paraphrased",
+      "expected": "zero"
+    },
+    {
+      "id": 15,
+      "question": "Even though a car moves at constant speed in a circle, is it accelerating?",
+      "type": "paraphrased",
+      "expected": "yes, direction changes"
+    },
+    {
+      "id": 16,
+      "question": "Who is the Prime Minister of India?",
+      "type": "out_of_scope",
+      "expected": null
+    },
+    {
+      "id": 17,
+      "question": "What is photosynthesis?",
+      "type": "out_of_scope",
+      "expected": null
+    },
+    {
+      "id": 18,
+      "question": "Explain nuclear fission using the concepts from this chapter.",
+      "type": "out_of_scope_tricky",
+      "expected": null
+    },
+    {
+      "id": 19,
+      "question": "Using the equations in this chapter, explain how a nuclear reactor controls energy.",
+      "type": "out_of_scope_tricky",
+      "expected": null
+    },
+    {
+      "id": 20,
+      "question": "wat is newtons 2nd law force equal mass times acceleration",
       "type": "out_of_scope",
       "expected": null
     }

@@ -26,6 +26,14 @@ class Chunker:
                 cur_text = words[:]
                 cur_meta = [b]
                 continue
+            # Force new chunk if this block starts a definition
+            definition_starters = ["displacement is", "velocity is", "acceleration is", 
+                                    "speed is", "is defined as", "let us now define"]
+            block_start = b["text"].lower()[:60]
+            if any(block_start.find(s) != -1 for s in definition_starters) and cur_text:
+                chunks.append(self._pack(chunks, cur_text, cur_meta))
+                cur_text = []
+                cur_meta = []
 
             if len(cur_text)+len(words) <= self.max_words or self._should_keep_together(b):
                 cur_text += words

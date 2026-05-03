@@ -19,6 +19,7 @@ class Config:
 
     # Eval
     EVAL_PATH: str = "src/evaluation/question_set.json"
-    RESULTS_PATH: str = "results/evaluation_results_v1.csv"
+    PROMPT_VERSION: str = "v2"
+    RESULTS_PATH: str = f"results/evaluation_results_{PROMPT_VERSION}.csv"
 
 CFG = Config()
