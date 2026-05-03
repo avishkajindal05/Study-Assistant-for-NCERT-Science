@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {"id": 1, "question": "What is displacement?", "type": "direct", "expected": "net change in position"},
+    {"id": 2, "question": "What is acceleration?", "type": "direct", "expected": "rate of change of velocity"},
+    {"id": 3, "question": "What does the slope of a velocity-time graph represent?", "type": "direct", "expected": "acceleration"},
+    {"id": 4, "question": "What is the SI unit of acceleration?", "type": "direct", "expected": "m/s"},
+    {"id": 5, "question": "What does a straight horizontal line on a position-time graph mean?", "type": "direct", "expected": "object is at rest"},
+    {"id": 6, "question": "What is uniform circular motion?", "type": "direct", "expected": "constant speed circular"},
+    {"id": 7, "question": "If an object returns to its starting point, what is the displacement?", "type": "paraphrased", "expected": "zero"},
+    {"id": 8, "question": "If velocity is not changing, what can you say about acceleration?", "type": "paraphrased", "expected": "zero"},
+    {"id": 9, "question": "Even though a car moves at constant speed in a circle, is it accelerating?", "type": "paraphrased", "expected": "yes"},
+    {"id": 10, "question": "Who is the Prime Minister of India?", "type": "out_of_scope", "expected": null},
+    {"id": 11, "question": "What is photosynthesis?", "type": "out_of_scope", "expected": null},
+    {"id": 12, "question": "Using the equations of motion from this chapter, calculate the velocity of a rocket leaving Earth's atmosphere.", "type": "out_of_scope_plausible", "expected": null}
+  ]
+}
