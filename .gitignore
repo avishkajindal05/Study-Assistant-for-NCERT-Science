@@ -40,10 +40,8 @@ data/chunks/*
 # -------------------------
 # Logs & Results
 # -------------------------
-results/*
-!results/.gitkeep
 
-
+logs/infow10.md
 
 
 
